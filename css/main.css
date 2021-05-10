@@ -1,0 +1,118 @@
+*{margin:0px;padding:0px;}
+	.box{width:100%;height:815px;margin:auto;position:relative;}/*外面大盒子*/
+	
+	.con{width:100%;height:815px;overflow:hidden;}/*图片盒子*/
+	/*.con ul li{list-style-type:none;width:735px;height:350px;}*/
+
+	/*按钮*/
+	.prev{width:45px;height:100px;position:absolute;left:0px;top:50%;margin-top:-50px;opacity:0.7;cursor:pointer;}
+	.next{width:45px;height:100px;position:absolute;right:0px;top:50%;margin-top:-50px;);opacity:0.7;cursor:pointer;}
+	.h-nav{width:100%;height:40px;position:absolute;left:0px;bottom:120px;}
+	.nav{width:230px;height:30px;margin:auto;}
+	.nav ul li{width:15px;height:15px;list-style:none;border-radius:50%;border:1px solid #88c4ff;float:left;margin-left:20px;cursor:pointer;}
+	.nav ul .bg{background:#ff93c9;}
+
+	
+	/*头部*/
+			.h-top{width:100%;height:60px;position:absolute;top:20px;}
+			.h-top .header{width:1000px;height:60px;margin:auto;}
+			.h-top .header ul{font-size:28px;}
+			.h-top .header li{list-style:none;float:left;width:160px;height:60px;line-height:60px;text-align:center;border:0px;}
+			.h-top .header a{color:#333333;text-decoration:none;width:160px;height:60px;border:1px solid #fff;display:inline-block;}
+			.h-top .header a:hover{background:#eeeeee;color:#de6ea9;text-decoration:none;width:160px;height:60px;}
+			.h-top .header .h-heafir{background:#fffdf9;}
+
+			/*头部中间内容*/
+			.h-center{width:100%;height:200px;position:absolute;top:348px;left:0px;}
+			.h-center .h-cen-ter{width:690px;height:120px;margin:auto;text-align:center;}
+			/*.h-center .h-cen-ter p{font-size:30px;color:#fff;}*/
+			.h-center .h-cen-ter ul{font-size:45px;color:#000;font-family:"微软雅黑";opacity:0.9;}
+			.h-center .h-cen-ter ul li{width:227px;height:120px;float:left;list-style:none;}
+			.h-center .h-cen-ter .h_txt{line-height:120px;color:#ffcce6;}
+			.h-center .h-cen-ter .h_txt1{padding-left:75px;}
+			.h-center .h-cen-ter .h_txt2{padding-right:65px;}
+
+
+			
+			/*头部下面图片*/
+			.hzd-banner1{width:100%;height:280px;position:absolute;top:555px;left:0px;}
+			.hzd-bannerleft{width:50%;height:280px;float:left;}
+			.hzd-bannerright{width:50%;height:280px;float:left;}
+
+			.h-banner1{width:600px;height:260px;border-radius:10px;float:right;margin-right:100px;}
+			.h-banner2{width:600px;height:260px;left:53%;border-radius:10px;margin-left:100px;}
+
+			.h-banner1 .h-ban1{width:245px;height:245px;margin:auto;}
+			.h-banner1 .h-ban2{width:600px;height:100px;background:#e3e3e3;opacity:0.4;border:1px solid #f1f1f1;position:absolute;bottom:20px;}
+
+			.h-banner2 .h-ban3{width:245px;height:245px;margin:auto;}
+			.h-banner2 .h-ban4{width:600px;height:100px;background:#e3e3e3;opacity:0.4;border:1px solid #f1f1f1;position:absolute;bottom:20px;}
+
+			.h-banner1 .imgtitle{border-radius:50%;width:245px;}
+			.h-banner2 .h-ban3 .imgtitle{border-radius:50%;width:245px;}
+
+
+
+			/*总头部下面图片*/
+			.h-header{width:100%;height:275px;}
+
+			.h-headerleft{width:50%;height:275px;float:left;}
+			.h-headerright{width:50%;height:275px;float:left;}
+
+			.h-header1{width:500px;height:275px;float:right;margin-right:100px;}
+			.h-header2{width:500px;height:275px;float:left;margin-left:100px;}
+			.h-header1 h2{text-align:center;margin-top:10px;}
+			.h-header1 h3{line-height:40px;margin-top:20px;font-size:20px;color:#5a5a5a;}
+			.h-header2 h2{text-align:center;margin-top:10px;}
+			.h-header2 h3{line-height:40px;margin-top:20px;font-size:20px;color:#5a5a5a;}
+	
+
+			
+			
+
+	/*中间部分*/
+	.hz-banner{width:100%;height:800px;border:1px solid red;}
+	.hz-banner .hz-center{width:100%;height:750px;background:url(images/bg.jpg);}
+
+		/*美美哒图片部分*/
+		.h-centent{width:99%;height:800px;border:10px solid #ffcc99;border-radius:50px;background:#669900;}
+		.h-centent h2{width:800px;text-align:center;margin:auto;margin-top:10px;font-size:40px;color:#000;}
+		.h-centent h3{width:500px;text-align:center;margin:auto;margin-top:10px;font-size:30px;color:#b7b7b7;}
+
+		.h-centent .h-picture{width:1200px;height:660px;margin:10px auto;}
+		.h-centent .h-picture ul{}
+		.h-centent .h-picture ul li{width:360px;height:285px;list-style:none;float:left;margin:15px;cursor:pointer;
+				
+		}
+		.h-centent .h-picture ul li:hover{transition:all 2s ease;}
+		.h-centent .h-picture .color1{border:5px solid #66ffff;border-radius:5px;}
+		.h-centent .h-picture .color1:hover{transition: 0.9s;transform: rotateY(45deg);}
+		.h-centent .h-picture .color2{border:5px solid #ffaed7;border-radius:5px;}
+		.h-centent .h-picture .color2:hover{transform:rotateX(45deg)}
+
+	/*猪婆与懒虫的故事*/
+	.h-bot{width:99%;height:1150px;border:10px solid #ff6699;margin-top:80px;border-radius:50px;background:#cc99ff;}
+	.h-bot h2{width:700px;text-align:center;margin:auto;margin-top:10px;font-size:40px;color:#000;}
+	.h-bot h3{width:500px;text-align:center;margin:auto;margin-top:10px;font-size:30px;color:#b7b7b7;}
+	.h-bot .h-bot_banner{width:1200px;height:980px;margin:50px auto;}
+	
+	.h-bot ul{}
+	.h-bot ul li{list-style:none;width:560px;height:280px;float:left;margin:10px;position:relative;}
+	/*文字排版1*/
+	.h-bot .h-bot_banner h1{width:200px;height:200px;margin-top:10px;}
+	.h-bot .h-bot_banner h1 img{width:200px;border-radius:50%;border:3px solid #ff99ff;}
+	.h-bot .h-bot_banner h1 img:hover{transition: 0.3s;transform:rotateZ(45deg);cursor:pointer;border:3px solid #00ff00;}
+	.h-bot .h-bot_banner h2{width:340px;height:40px;position:absolute;top:0px;left:210px;font-size:30px;}
+	.h-bot .h-bot_banner h3{width:340px;height:170px;position:absolute;top:50px;left:210px;font-size:18px;color:#424242;}
+	.h-bot .h-bot_banner .button1{width:110px;height:30px;position:absolute;top:240px;left:110px;font-size:18px;color:#fff;line-height:30px;cursor:pointer;background:#de5781;}
+	.h-bot .h-bot_banner .button1:hover{background:#333333;}
+	/*文字排版2*/
+	.h-bot .h-bot_banner h4{width:200px;height:200px;margin-top:10px;position:absolute;left:350px;}
+	.h-bot .h-bot_banner h4 img{width:200px;border-radius:50%;border:3px solid #ffff33;}
+	.h-bot .h-bot_banner h4 img:hover{transition: 0.3s;transform:rotateZ(-45deg);cursor:pointer;border:3px solid #ff15ff;}
+	.h-bot .h-bot_banner h5{width:340px;height:40px;position:absolute;top:0px;left:0px;font-size:30px;text-align:center;}
+	.h-bot .h-bot_banner h6{width:340px;height:170px;position:absolute;top:50px;left:0px;font-size:18px;color:#424242;text-align:center;}
+	.h-bot .h-bot_banner .button2{width:110px;height:30px;position:absolute;top:240px;left:310px;font-size:18px;color:#fff;line-height:30px;cursor:pointer;background:#de5781;}
+	.h-bot .h-bot_banner .button2:hover{background:#333333;}
+
+	.h-bot .h-bot_banner h1 .h-border:hover{transition: 0.3s;transform:scaleX(1.5);cursor:pointer;border:3px solid #ffb76f;}
